@@ -33,7 +33,9 @@ title: "[WebAR] Platform"
 ### zappworks
 
 ### AWE
-
+- https://awe.media/
+- https://awe.media/support/adding-and-updating-objects
+- https://github.com/awe-media/awe.js
 ### Hololink
 
 ### XR.+
