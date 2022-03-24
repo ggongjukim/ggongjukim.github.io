@@ -21,3 +21,21 @@ title: "[WebAR] Platform"
    * Onirix Web AR Player를 사용하면 웹 브라우저에서 완전한 AR 경험을 표시할 수 있습니다. 일부 모델 및 상호 작용으로 경험을 준비하고 마찰 없는 방식으로 청중과 즉시 공유하십시오.
 - iframe 이 몬뎅?
 -  Onirix는 표면 인식, 이미지 인식, QR code 인식, 공간 인식이 가능하다. 
+-  onirix player
+
+### Blippar
+- WebAR SDK 공식문서 https://support.blippar.com/hc/en-us/articles/4406622267283-Introduction
+- BLIPPBUILDER
+- HTML 및 WebGL과 같은 2D 및 3D를 지원하는 웹 콘텐츠 표준과 호환됩니다.
+- https://support.blippar.com/hc/en-us
+- blippbuilder도 slam된대 어떻게? 마커 기반이랑 마커리스만 나왔는데 
+
+### zappworks
+
+### AWE
+
+### Hololink
+
+### XR.+
+
+### Letsee
