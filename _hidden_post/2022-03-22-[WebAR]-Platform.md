@@ -29,14 +29,34 @@ title: "[WebAR] Platform"
 - HTML 및 WebGL과 같은 2D 및 3D를 지원하는 웹 콘텐츠 표준과 호환됩니다.
 - https://support.blippar.com/hc/en-us
 - blippbuilder도 slam된대 어떻게? 마커 기반이랑 마커리스만 나왔는데 
-
+- 드래그앤 드롭 인터랙티브 타임라인
 ### zappworks
 
 ### AWE
 - https://awe.media/
 - https://awe.media/support/adding-and-updating-objects
 - https://github.com/awe-media/awe.js
-### Hololink
+- AR VR 웹 어플리케이션 
+- awe app domain
+- 가장 강력한 기능 중 하나는 동일한 앱 내에서 한 유형의 경험을 다른 유형의 경험으로 쉽게 원활하게 연결할 수 있다는 것
+- 시작하려면 awe 앱에서 콘솔 출력을 활성화해야 합니다. 오버헤드를 줄이고 프로덕션 앱이 브라우저 콘솔을 오염시키는 것을 방지하기 위해 이 기능을 껐습니다. 그러나 개발 중에 상호 작용하려면 이 기능을 켜고 싶습니다.
+- Copy this line into your Javascript console and hit enter, then reload your page.
+- 저장된 개체(예: awe.projections.list())에 액세스하고 관리
+- awe.js API는 THREE.js 위에 있으며 장면, 미디어 개체, 상호 작용, 센서, 장치 유형 등을 쉽게 관리할 수 있습니다.
+- natural 어쩌고 그거 한다고 함
+- 
+### ~Hololink~
+- drag and drop editor AR 경험을 만드는 것은 Hololink의 직관적인 브라우저 기반 편집기를 사용하면 매우 쉽습니다. 이를 통해 기록적인 시간 내에 작업 프로토타입을 생성할 수 있습니다.
+- 시각적 개요를 통한 상호 작용
+- 인터랙티브하게 만들어 의미 있는 AR 경험을 디자인하세요. 
+- Hololink의 사용자 중심 인터페이스는 상호 작용에 대한 시각적 개요를 제공하여 그 어느 때보다 빠르게 프로토타입을 만들 수 있습니다
+- 안될듯
+
+### exokit
+- https://github.com/exokitxr
+- https://exokit.org/
+- https://medium.com/webmr/introducing-exokit-a-javascript-web-engine-for-the-post-screen-era-49eaf378f36e
+- https://kandi.openweaver.com/javascript/exokitxr/exokit-browser
 
 ### XR.+
 
