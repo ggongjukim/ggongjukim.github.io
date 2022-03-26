@@ -7,6 +7,9 @@ title: "[WebAR] Platform"
 - 증강현실의 기본요소들을 설명해야하지 않을까 하는 생각이 드네... 
 - 가상 scene이런것들 아니면 라이프사이클같은거 ...?  
 - 협업한 회사들 쓸까?
+- end to end 종합 솔루션 e2es xr engine 도 이런 말 있었는데 
+- https://docs.zap.works/universal-ar/general/terminology/ 용어 설명 
+- 플랫폼도 완전 no code 를 추구하는 방식
 ### 8thWall
 
 ### Onirix
@@ -36,7 +39,12 @@ title: "[WebAR] Platform"
 - blippbuilder도 slam된대 어떻게? 마커 기반이랑 마커리스만 나왔는데 
 - 드래그앤 드롭 인터랙티브 타임라인
 ### zappworks
-
+- 모 하는애? ar? webar?
+- 구현 방법 : 세가지 zapper studio/zapper design/ 
+- 배포 방법 : webar, 커스텀 앱, zapper apps
+- universial ar https://docs.zap.works/universal-ar/
+- zappar 와 zapworks의 관계 ? https://www.zappar.com/contact/
+- 
 ### AWE
 - https://awe.media/
 - https://awe.media/support/adding-and-updating-objects
@@ -63,9 +71,12 @@ title: "[WebAR] Platform"
 - https://medium.com/webmr/introducing-exokit-a-javascript-web-engine-for-the-post-screen-era-49eaf378f36e
 - https://kandi.openweaver.com/javascript/exokitxr/exokit-browser
 
-### XR.+
-
-### Letsee
+### ~XR.+~
+- 스크립트 얘기가 전혀없눈데
+- 홈페이지 https://xr.plus/experiences/
+- 공식문서 https://docs.xr.plus/your-first-web-ar-project/
+- 
+### 3.1.3.8 Letsee 
 - 공식 문서 https://developers.letsee.io/api-v1.1.3/
 - 홈페이지 https://www.letsee.io/ko/
 - 튜토리얼 https://www.notion.so/Letsee-WebAR-SDK-970d6621cbec487f8c1f7488a5ca86a3
@@ -77,3 +88,5 @@ title: "[WebAR] Platform"
 - webrtc 도 써야대눈뎅!!!
 - https://support.google.com/domains/answer/7630973?hl=ko https 
 
+6개만 쓰고 awe exo 킷으로 바꾸어 쓰기
+일단 8thwall onirix blippar zappar letsee
