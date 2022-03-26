@@ -61,3 +61,18 @@ title: "[WebAR] Platform"
 ### XR.+
 
 ### Letsee
+- 공식 문서 https://developers.letsee.io/api-v1.1.3/
+- 홈페이지 https://www.letsee.io/ko/
+- 튜토리얼 https://www.notion.so/Letsee-WebAR-SDK-970d6621cbec487f8c1f7488a5ca86a3
+- 깃헙 https://github.com/letsee
+- Letsee WebAR SDK 의 가장 큰 특징은 Web 의 interaction, event 제어를 AR contents 내부에서 그대로 사용할 수 있게 하여, 별도의 도움이 없이도 AR 환경 위에서 동작하는 웹 컨텐츠를 제작할 수 있다는 것 
+- https 이어야함 -> 다른것도 https여야만 하는지 
+- https://www.notion.so/Getting-Started-11b26d08982f45f59a695d83d104080c 요구사항 기기
+- Letsee WebAR SDK 는 WebRTC를 이용하여 Camera 로부터 vision을 획득하여 Video Stream 재생을 합니다. 그리고 이 Video Stream 을 바탕으로 각종 tracking 을 수행하여 AR 경험을 제공
+- webrtc 도 써야대눈뎅!!!
+- https://support.google.com/domains/answer/7630973?hl=ko https 
+
+### memo... 
+- 흠 .. 뭔가 시원함이 없네
+- 증강현실의 기본요소들을 설명해야하지 않을까 하는 생각이 드네... 
+- 가상 scene이런것들 아니면 라이프사이클같은거 ...?  
