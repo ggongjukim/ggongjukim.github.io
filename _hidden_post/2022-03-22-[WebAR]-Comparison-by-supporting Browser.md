@@ -29,3 +29,9 @@ title: "[WebAR] Comparison by Spporting Browser"
 - https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API
 
 ***
+### framework AR.js
+- 다된다
+- 다중카메라 잘 안될수도있음
+- ios에서 위치기반 경고 팝업창이 아농ㄹ 수 있다. 
+
+### 
