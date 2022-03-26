@@ -2,6 +2,11 @@
 layout: single
 title: "[WebAR] Platform"
 ---
+### memo... 
+- 흠 .. 뭔가 시원함이 없네
+- 증강현실의 기본요소들을 설명해야하지 않을까 하는 생각이 드네... 
+- 가상 scene이런것들 아니면 라이프사이클같은거 ...?  
+- 협업한 회사들 쓸까?
 ### 8thWall
 
 ### Onirix
@@ -72,7 +77,3 @@ title: "[WebAR] Platform"
 - webrtc 도 써야대눈뎅!!!
 - https://support.google.com/domains/answer/7630973?hl=ko https 
 
-### memo... 
-- 흠 .. 뭔가 시원함이 없네
-- 증강현실의 기본요소들을 설명해야하지 않을까 하는 생각이 드네... 
-- 가상 scene이런것들 아니면 라이프사이클같은거 ...?  
