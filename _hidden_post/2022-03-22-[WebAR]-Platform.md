@@ -11,6 +11,7 @@ title: "[WebAR] Platform"
 - https://docs.zap.works/universal-ar/general/terminology/ 용어 설명 
 - 플랫폼도 완전 no code 를 추구하는 방식
 - https://developer.playcanvas.com/en/tutorials/ playcanvas tutorial
+- 않이! 왜 https://www.lambdatest.com/web-technologies/webxr-support-on-firefox-28 webxr device api 파이어폭스에서 안된다구 하면서 왜 돼????
 ### 8thWall
 
 ### Onirix
