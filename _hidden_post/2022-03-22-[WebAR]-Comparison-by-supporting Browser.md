@@ -15,6 +15,11 @@ title: "[WebAR] Comparison by Spporting Browser"
 - getUserMedia (navigator.mediaDevices.getUserMedia)
 - deviceorientation (window.DeviceOrientationEvent)
 - Web-Assembly/WASM (window.WebAssembly) 공부하기 
+- 언리얼
+- https://medium.com/inborn-experience/webxr-what-we-need-to-reach-unity-and-unreal-195568bf02d5
+- https://www.youtube.com/watch?v=V6sECkur9ak
+- https://forums.unrealengine.com/t/new-github-project-webxr-cinecamera-controller/141854
+- https://labs.handpickedagencies.com/webar-en
 
 ### 비교할 브라우저 선정
 - 스탯카운터의 통계! https://gs.statcounter.com/
@@ -91,3 +96,7 @@ title: "[WebAR] Comparison by Spporting Browser"
 - webxr api, 8thwall로 구현 가능하다라고하는게 맞지않으깡 .. . ?
 - https://wonderlandengine.com/about/features/#highlights webgl2 쓴다
 - Wonderland Engine은 WebXR(WebVR 및 WebAR)용으로 특별히 설계되었습니다. 8thwall 및 AR.js, 컨트롤러 입력 및 WebXR 1.0 장치 API 지원과의 통합이 제공됩니다.
+- https://www.gmw3.com/2021/03/webxr-platform-wonderland-engine-moves-to-free-royalty-based-model/
+
+### godot
+- https://www.snopekgames.com/tutorial/2020/how-make-vr-game-webxr-godot
