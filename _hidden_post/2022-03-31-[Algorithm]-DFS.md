@@ -11,7 +11,7 @@ title: "DFS 공부"
 
 
 ###  예제
-![image](https://user-images.githubusercontent.com/75241542/160992601-f87529f7-4bd3-4296-97c4-48c4570c67eb.png)
+![image](https://user-images.githubusercontent.com/75241542/160992601-f87529f7-4bd3-4296-97c4-48c4570c67eb.png)  
 탐색 순서 : 1->2->7->6->8->3->4->5
 
 ### idea
