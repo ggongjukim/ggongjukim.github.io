@@ -1,5 +1,6 @@
 ---
-title : DFS 공부
+layout: single
+title: "DFS 공부"
 ---
 
 ### DFS 개념 
