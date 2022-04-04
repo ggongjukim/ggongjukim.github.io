@@ -28,8 +28,35 @@ BFS 출력하려면
 - 둘째줄부터 입력부터는 정렬을 하는게 좋을지도..!
 
 ### | 풀이
-``` python
-n, m, v = input().split()
+``` pythonfrom collections import queue
+n, m, v = map(int, input().split())
+graph=[]
+for i in range(m+1):#grpah[0] 포함
+  graph.append([])
+print(graph)
+for i in range(m):
+  a,b = map(int,input().split())
+  graph[a].append(b)
+  graph[b].append(a)
+print(graph)
+for i in range(m+1):
+  graph[i].sort()
+print(graph)
+
+dfsvisited = [False]* (n+1)
+print(dfsvisited)
+bfsvisited = [False]* (n+1)
+def dfs(graph,v,dfsvisited):
+  dfsvisited[v] = True
+  print(v, end=' ')
+  for i in graph[v]:
+    if not dfsvisited[i]:
+      dfs(graph,i,dfsvisited)
+
+dfs(graph,v,dfsvisited)
+
+def bfs(graph,start,bfsvisited):
+  
 
 ```
 
