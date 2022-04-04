@@ -1,5 +1,9 @@
 ---
-title : [알고리즘공부][백준]1260 DFS와 BFS-톱니형 리스트
+title : "[백준]1260번 DFS와 BFS-톱니형 리스트"
+layout: single
+categories : Algorithm
+tag : [python, python3]
+toc : true
 ---
 
 ### | 문제
