@@ -2,6 +2,7 @@
 layout: single
 title: "BFS 공부"
 categories : Algorithm
+tag : python
 ---
 
 ### | BFS 개념
