@@ -1,5 +1,5 @@
 ---
-title : [알고리즘공부][백준]1260 DFS와 BFS
+title : [알고리즘공부][백준]1260 DFS와 BFS-톱니형 리스트
 ---
 
 ### | 문제
@@ -25,21 +25,25 @@ DFS 출력하려면..
 BFS 출력하려면
 - bfs 큐담기, 방문처리, 출력하기
 이 문제는 graph를 정리하는게 더 중요할지도..!
+- 톱니형 리스트 사용하기
 - 둘째줄부터 입력부터는 정렬을 하는게 좋을지도..!
 
 ### | 풀이
 ``` python
 from collections import deque
 n, m, v = map(int, input().split())
+#input 받기
 graph=[]
 for i in range(n+1):#grpah[0] 포함
   graph.append([])
 print(graph)
+#input 톱니형 리스트로 정리
 for i in range(m):
   a,b = map(int,input().split())
   graph[a].append(b)
   graph[b].append(a)
 print(graph)
+# 정렬
 for i in range(n+1):
   graph[i].sort()
 print(graph)
