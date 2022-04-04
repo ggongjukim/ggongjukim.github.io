@@ -28,7 +28,8 @@ BFS 출력하려면
 - 둘째줄부터 입력부터는 정렬을 하는게 좋을지도..!
 
 ### | 풀이
-``` pythonfrom collections import queue
+``` python
+from collections import queue
 n, m, v = map(int, input().split())
 graph=[]
 for i in range(m+1):#grpah[0] 포함
