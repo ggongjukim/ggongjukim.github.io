@@ -27,7 +27,7 @@ toc : true
 - 출력하기 : 스택에서 맨 상단 꺼내서 현재노드로 설정하고 출력하기 = 방문처리하고 출력하기 (방문하기와 출력이 동시에 이루어짐)
 - 순서 : 담기& 출력하기& 방문하기 동시에 이루어짐 순서에 영향 없음  
 
-``` python
+```python  
 def dfs(graph,v,visited): #v는 현재노드
   visited[v] = True
   print(v,end=' ')
