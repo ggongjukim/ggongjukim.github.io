@@ -29,7 +29,7 @@ BFS 출력하려면
 
 ### | 풀이
 ``` python
-from collections import queue
+from collections import deque
 n, m, v = map(int, input().split())
 graph=[]
 for i in range(m+1):#grpah[0] 포함
@@ -57,6 +57,17 @@ def dfs(graph,v,dfsvisited):
 dfs(graph,v,dfsvisited)
 
 def bfs(graph,start,bfsvisited):
+  bfsvisited[start] = True
+  queue = deque([start])
+  while queue:
+    currentNode = queue.popleft()
+    print(currentNode,end =' ')
+    for i in graph[currentNode]:
+      if not bfsvisited[i]:
+        bfsvisited[i] =True
+        queue.append(i)
+bfs(graph,v,bfsvisited)
+  
   
 
 ```
