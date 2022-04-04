@@ -1,6 +1,8 @@
 ---
 layout: single
 title: "DFS 공부"
+categories : Algorithm
+
 ---
 
 ### DFS 개념 
