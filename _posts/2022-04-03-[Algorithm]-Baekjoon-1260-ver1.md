@@ -17,7 +17,7 @@ toc : true
 DFS 출력결과
 BFS 출력결과
 
-### | 예시 1  
+### | 예시 1(표)  
 |**input**|**output**|
 |---|---|
 |4 5 1</br>![image](https://user-images.githubusercontent.com/75241542/160990853-9ff8d726-aafb-4de6-ad4c-e82e475cb28e.png)|1 2 4 3</br>1 2 3 4|    
