@@ -3,7 +3,7 @@ layout: single
 title: "DFS 공부"
 categories : Algorithm
 tag : [python, python3]
-
+toc : true
 ---
 
 ### DFS 개념 
