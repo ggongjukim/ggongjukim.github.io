@@ -32,7 +32,7 @@ BFS 출력하려면
 from collections import deque
 n, m, v = map(int, input().split())
 graph=[]
-for i in range(m+1):#grpah[0] 포함
+for i in range(n+1):#grpah[0] 포함
   graph.append([])
 print(graph)
 for i in range(m):
@@ -40,7 +40,7 @@ for i in range(m):
   graph[a].append(b)
   graph[b].append(a)
 print(graph)
-for i in range(m+1):
+for i in range(n+1):
   graph[i].sort()
 print(graph)
 
