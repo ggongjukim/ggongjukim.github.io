@@ -1,4 +1,9 @@
 ---
+title : "[프로그래머스]타겟 넘버"
+layout: single
+categories : Algorithm
+tag : [python, python3]
+toc : true
 ---
 ### | 문제
 정수의 배열이 있을 때 적절히 더하거나 빼서 타겟 넘버를 만들 수 있는 경우의 수를 구해윱
