@@ -18,7 +18,8 @@ toc : true
 감염되는 노드 수 (1노드 빼고)
 
 ### | 예시
-|**input**|**output**|
+
+|**input**|**output**|  
 |-------------------------|-----------------------------|
 |7 <br> 6 <br> ![image](https://user-images.githubusercontent.com/75241542/161702168-0e8974ec-679a-4999-8308-2383c1cb0cc1.png) | 4 |
 
