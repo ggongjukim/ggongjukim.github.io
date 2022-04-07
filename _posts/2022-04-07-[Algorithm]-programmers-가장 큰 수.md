@@ -1,5 +1,5 @@
 ---
-title : "[프로그래머스]가장 큰 수"
+title : "[프로그래머스]가장 큰 수(해결중)"
 layout: single
 categories : Algorithm
 tag : [python, python3,정렬]
