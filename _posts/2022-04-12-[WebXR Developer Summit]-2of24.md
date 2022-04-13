@@ -21,11 +21,11 @@ toc : true
  - gltf가 표준의 역할을 할것으로 보인다
  - (이해 잘 못했음)
 
- ### | Q. immersive web이 더 나아가기 위해 필요한 점?
+### | Q. immersive web이 더 나아가기 위해 필요한 점?
  - 여러 API는 개발을 편리하게 하지만
  - API에 의존하지 않는 다양한 경험도 필요하다
 
- ### | Q. 향후 2년동안 threeJS에 바라는 것?
+### | Q. 향후 2년동안 threeJS에 바라는 것?
  - abstraction이 immersive 환경에서 상호작용이 잘 되는 것처럼 앞으로 2년동안의 출시되는 headset과도 잘 작동하길 바란다
  - 손 interaction을 주목하고 있다 
 
