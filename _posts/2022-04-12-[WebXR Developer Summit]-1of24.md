@@ -69,7 +69,7 @@ toc : true
   - ```WebAudio```는 ```spatialization```(공간화) 역할
   - ```WebGPU```는 그래픽을 빠르게 표현함
   - ```WebRTC```는 브라우저와의 소통, 다른 브라우저 간의 소통의 역할
-- ** Graphic Engine, Physics Engine**
+- **Graphic Engine, Physics Engine**
   - 오늘 많이 이야기 할것이기 때문에 생략
 - **App Framework**
   - threeJS, babylon.js, potassium es 같은 것들
