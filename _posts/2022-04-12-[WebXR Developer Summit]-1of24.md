@@ -11,10 +11,9 @@ toc : true
   - display mode
   - 과거에 기본적으로 flat screen 형태의 하나의 디스플레이만 가능 - > 키보드, 마우스, 터치스크린 + 펜, 음성 + 다른형태의 control or page controls overlay controls spatial 3d contols
   - 발표자 : WebXR의 발전을 추적하는 Immersive Web Weekly 뉴스레터의 편집자인 Trevor Flowers
+
 ### | Three display modes: 
 <img src = "https://user-images.githubusercontent.com/75241542/163098731-a793d948-0028-445a-acd5-21bbb6618a0e.png" width="40%" height = "40%">
-
-
 
 - 세 파트 있음
 - Three display mode
