@@ -26,7 +26,7 @@ toc : true
   - immersive display는 VR혹은 AR glasses을 생각하면 쉽다 
   - 오늘 모든 하드웨어를 처리하도록 만든 WebXR에 대해 이야기할때 몰입형 디스플레이를 기본값으로 이야기하게된다
   - 스마트폰으로 flat display 형태로 콘텐츠를 볼 수 있고, 스마트폰을  모션 정보를 얻은 다음 스마트폰을 들고있으면 포털로 사용할 수 있다. immersice displays도 물론  .. ? 4:40
-  - 
+  
 
 ### | Three control types: 
 <img src = "https://user-images.githubusercontent.com/75241542/163107908-3c904c1c-4228-40f5-948a-3fe63bc00c1c.png" width="40%" height = "40%">
@@ -80,7 +80,7 @@ toc : true
  
 ### | 마무리
 - 오늘 이야기는 브라우저가 XR을 수행할 수 있을지 아닌지 확인하는것
-- + geolocation, shared contents, digital bodies 및 서비스 간에 ID를 가져오는 방법과 같은 서비스
+- geolocation, shared contents, digital bodies 및 서비스 간에 ID를 가져오는 방법과 같은 서비스
 
 
 
