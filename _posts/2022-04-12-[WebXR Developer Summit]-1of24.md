@@ -7,6 +7,7 @@ toc : true
 ---
 
 ## |  The wider Web
+- 이 문서는 [WebXR Developer Summit](https://www.youtube.com/watch?v=ZGlcrFxbsHc&list=PLKNvd3dXSaxBlJFtM1YAJhCLbFQiIPQsL&index=2) 을 필기 및 공부한 내용입니다 틀린게 있다면 댓글남겨주세요!
 - wider Web의 세 파트
   - display mode
   - 과거에 기본적으로 flat screen 형태의 하나의 디스플레이만 가능 - > 키보드, 마우스, 터치스크린 + 펜, 음성 + 다른형태의 control or page controls overlay controls spatial 3d contols
