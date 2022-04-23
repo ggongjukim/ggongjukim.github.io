@@ -152,6 +152,7 @@ namespace lve {
  - FirstApp 클래스 포함하고 main함수 구현
  - 앱 인스턴스 만들기
  - try catch로 run함수 호출하고 return을 성공하면 success 실패하면 failure
+``` c++
 #include "first_app.hpp"
 
 #include <cstdlib>
@@ -171,11 +172,10 @@ int main() {
     return EXIT_SUCCESS;
 }
  ```
-
-
-
-
-
+***
+### | 결과
+- 창이 만들어진다
+![save](https://user-images.githubusercontent.com/75241542/164917256-f2015df6-ca0c-467f-a332-2e5fc905b776.PNG)
 
 
 
