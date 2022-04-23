@@ -77,6 +77,7 @@ namespace lve {
     - 4번째 인자는 fullscreen 설정하는거. 지굼은 그냥 window 모드라 nullptr 사용
 
  - 소멸자에는 glfwDestroyWindow,glfwTerminate호출. glfwDestroyWindow에는 window 포인터를 인자로 줌
+ 
  ``` c++
 #include "lve_window.hpp"
 
@@ -108,6 +109,7 @@ namespace lve {
  - private 멤버변수 추가. FirstApp 클래스 만들어지고 없어짐에 따라 window 만들어지고 없어진다
  - public으로 window 가로 세로 상수 정의 
  - public으로 run 함수 추가 
+
 ``` c++
 #pragma once
 
@@ -146,12 +148,13 @@ namespace lve {
     }
      
 }
- ```
+```
 ***
 ### | main.cpp
  - FirstApp 클래스 포함하고 main함수 구현
  - 앱 인스턴스 만들기
  - try catch로 run함수 호출하고 return을 성공하면 success 실패하면 failure
+
 ``` c++
 #include "first_app.hpp"
 
