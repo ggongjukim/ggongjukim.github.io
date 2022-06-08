@@ -16,4 +16,36 @@ toc : true
 
 
 
+### | 이진 탐색 함수
+``` python
+#이진 탐색 함수
+def binarySearch(arr, start, end, target):
+  #예외처리
+  if start > end: #start가 end 보다 크면
+    return None #찾는거 없습니다
+  
+  mid = (start + end)//2 #소수점 날리기
+  if arr[mid] == target:
+    return mid
 
+  elif arr[mid] < target: #찾는 값이 중간값보다 크면
+    return binarySearch(arr,start,mid-1,target) #end를 중간값-1로 넣기
+
+  else:
+    return binarySearch(arr,mid+1,end,target) #start를 중간값+1로 넣기
+
+#배열 원소 개수와 target값 받기
+n, target = list(map(int,input(.split())))
+
+#전체 원소 입력
+arr = list(map(int,input(.split())))
+
+#결과
+result = binary_search(arr,target,0,n-1)
+if result === None:
+  print("찾으려는 값 없음")
+
+else:
+  print(resultl+1, "번째있습니다")
+
+```
