@@ -35,10 +35,10 @@ def binarySearch(arr, start, end, target):
     return binarySearch(arr,mid+1,end,target) #start를 중간값+1로 넣기
 
 #배열 원소 개수와 target값 받기
-n, target = list(map(int,input(.split())))
+n, target = list(map(int,input().split()))
 
 #전체 원소 입력
-arr = list(map(int,input(.split())))
+arr = list(map(int,input().split()))
 
 #결과
 result = binary_search(arr,target,0,n-1)
