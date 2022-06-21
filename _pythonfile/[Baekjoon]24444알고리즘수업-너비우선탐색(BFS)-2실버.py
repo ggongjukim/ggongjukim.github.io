@@ -23,12 +23,13 @@ for i in range(N):
 for i in range(M):
   a,b = map(int,input().split())
   graph[a].append(b)
+
   graph[b].append(a)
 
 # 오름 차순 정리
 for i in graph:
   i.sort()
-# print(graph)
+print(graph)
 #BFS는 큐!
 #그래프, 시작노드, visited
 
@@ -41,14 +42,24 @@ def BFS(graph, start, visited): #
 
   #큐가 존재할동안 계속 반복
   while queue:
+
     now = queue.popleft()
-    print(now)
+    #여기! 0 처리하는거!!!
+    print("now",now)
+
+    temp = []*len(graph[now])
     for i in graph[now]:
+
       if not visited[i]:
         visited[i] = True
         queue.append(i)
+      else:
+        temp.append(True)
+      print(visited)
 
-  print(0)
+  if len(temp) == len(graph[now]):
+    print(0)
+
 
 BFS(graph, R,visited)
 
