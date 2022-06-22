@@ -93,6 +93,6 @@ dangi.sort()
 for i in dangi:
   print(i)
 ```
-###소감 :pushpin:
+### | 소감 :pushpin:
 - 한번에 잘풀어서 다행이라구 생각
 - map을 줄때 띄어쓰기 없이 주면 input().split()을 쓸수 없음 temp로 담아서 list로 바꿈
