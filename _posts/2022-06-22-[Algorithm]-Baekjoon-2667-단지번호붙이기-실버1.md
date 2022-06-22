@@ -1,8 +1,8 @@
 ---
-title : "[백준]2606번 바이러스"
+title : "[백준]2667번 단지번호붙이기 실버1"
 layout: single
 categories : Algorithm
-tag : [python, python3]
+tag : [python, python3, BFS]
 toc : true
 ---
 
