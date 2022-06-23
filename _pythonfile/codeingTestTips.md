@@ -6,7 +6,13 @@
 ## 문자열 -> 리스트
 - list(문자열)
 
+## max()에서 같은게 있으면 어떻게 되나용?
 
+## 모든 문자를 소문자로하려면
+- 문자열.lower()
+
+## 모든 문자를 대문자로 하려면
+- 문자열.upper()
 
 ## 리스트 -> 문자열
 - ''.join(리스트)
@@ -19,7 +25,13 @@
 
 ##인덱스 원소 동시 접근
 - for a,b in enumerate(리스트)
-- 키벨류스위치할딕셔너리 = {v:k for k,v in enumerate(딕셔너리 or 리스트)} => 키밸류 바꾸기
+- 키벨류스위치할딕셔너리 = {v:k for k,v in enumerate(딕셔너리 or 리스트)} => 키밸류 바꾸기 => 안되는데?
+- {v:k for k,v in di.items()}
+
+## 딕셔너리 정렬
+### value로 정렬 => 튜플로됨
+sorted_dict = sorted(my_dict.items(), key = lambda item: item[1])
+sorted_dict = sorted(my_dict.items(), key = lambda item: item[1], reverse = True) =>내림차순
 
 ##딕셔너리
 - 딕셔너리.get('키')
