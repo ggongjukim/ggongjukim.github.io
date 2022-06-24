@@ -11,6 +11,9 @@
 ## 모든 문자를 소문자로하려면
 - 문자열.lower()
 
+## 문자열에서 특정 문자열 개수 세기
+- 리스트 or 문자열.count("찾으려는 문자열")
+
 ## 모든 문자를 대문자로 하려면
 - 문자열.upper()
 
@@ -48,7 +51,7 @@ sorted_dict = sorted(my_dict.items(), key = lambda item: item[1], reverse = True
   for i in temp:
     candidate.append(''.join(i))
   ```
-
+### set을 리스트로
 
 * [방법2]
 -  
