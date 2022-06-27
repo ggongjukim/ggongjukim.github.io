@@ -16,6 +16,8 @@ for _ in range(N):
 for _ in range(M):
   listM.append(sys.stdin.readline())
 
+# print(listN)
+
 count =0
 for i in listN:
   if i in listM:
