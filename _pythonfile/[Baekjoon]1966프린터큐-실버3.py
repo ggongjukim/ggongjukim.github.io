@@ -11,6 +11,7 @@
 
 
 import sys
+from collections import deque
 dic ={}
 temp = list(map(int,input().split(' ')))
 print(temp)
@@ -20,5 +21,16 @@ for k,v in enumerate(temp):
 print(dic)
 
 
+i = 0
+while dic:
 
+  if dic[i] == max(dic.values()):
+    tmp = deque()
+    tmp = list(dic.keys())
+    print("팝", tmp)
 
+    dic.pop(tmp.popleft())
+  # else:
+  #   tmp = dic[i]
+
+  i += 1
