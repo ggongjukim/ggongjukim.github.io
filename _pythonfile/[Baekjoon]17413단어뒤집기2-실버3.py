@@ -21,10 +21,10 @@ word = []
 isTag = False
 
 for k,i in enumerate(s) :
-  # print("k i ", k, i)
+  print("k i ", k, i)
   if isTag == False and i == ' ':
     if len(word)!=0:
-      # print("단어붙이기", word)
+      print("단어붙이기", word)
       new.append(''.join(word[:]))
       word.clear()
     new.append(' ')
@@ -34,7 +34,7 @@ for k,i in enumerate(s) :
     temp =[]
     isTag = True
     if len(word)!=0:
-      # print("단어붙이기", word)
+      print("단어붙이기", word)
       new.append(''.join(word[:]))
       word.clear()
 
@@ -49,13 +49,44 @@ for k,i in enumerate(s) :
     continue
 
   if isTag == False and i != ' ':
-    # print("word", i)
+    print("word", i)
     word.append(i)
 
-# print(new)
+if len(word) != 0:
+  new.append(''.join(word))
+
+print(new)
 
 for i in new:
   if '<' not in i:
     print(i[::-1],end='')
   else:
     print(i,end='')
+
+# ##다른 풀이
+# import sys
+# input = sys.stdin.readline
+#
+#
+# S = input().rstrip()
+# answer = ''
+# tmp = ''
+# stack = False
+# for s in S:
+#     if stack:
+#         if s == '>':
+#             stack = False
+#         answer += s
+#     else:
+#         if s.isalnum():
+#             tmp += s
+#         else:
+#             answer += tmp[::-1]
+#             tmp = ''
+#             if s == '<':
+#                 answer += s
+#                 stack = True
+#             else:
+#                 answer += s
+# answer += tmp[::-1]
+# print(answer)
