@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "파이썬에서 자주 사용하는 표준 라이브러리"
+title: "[Algorithm] 파이썬에서 자주 사용하는 표준 라이브러리"
 categories : Algorithm
 tag : [python, python3]
 toc : true
