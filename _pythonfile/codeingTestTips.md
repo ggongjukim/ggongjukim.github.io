@@ -30,11 +30,21 @@ li[0], li[1] = li[1],li[0]
 - 리스트.sort(key = len) => 리스트 원소의 길이에 따라 오름차순으로 목록 정렬
 - 리스트[::-1] =>역순으로 출력
 
+<<<<<<< Updated upstream
+=======
+### 문자 제거법
+https://codechacha.com/ko/python-string-strip/
+양쪽 공백 제거 .strip()
+왼쪽 공백 제거 .lstrip()
+오른쪽 공백 제거 .rstrip()
+()안에 문자를 넣으면 해당 문자를 제거하도록 한다
+
 ## 리스트 회전
 - deque를 써야함
 - 리스트.rotate(-1) 역으로 한칸회전
 - 이차원 리스트도 가능함
 
+>>>>>>> Stashed changes
 ##인덱스 원소 동시 접근
 - for a,b in enumerate(리스트)
 - 키벨류스위치할딕셔너리 = {v:k for k,v in enumerate(딕셔너리 or 리스트)} => 키밸류 바꾸기 => 안되는데?
@@ -44,7 +54,6 @@ li[0], li[1] = li[1],li[0]
 ### value로 정렬 => 튜플로됨
 sorted_dict = sorted(my_dict.items(), key = lambda item: item[1])
 sorted_dict = sorted(my_dict.items(), key = lambda item: item[1], reverse = True) =>내림차순
-
 
 ##딕셔너리
 - 딕셔너리.get('키')

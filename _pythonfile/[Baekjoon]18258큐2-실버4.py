@@ -5,40 +5,42 @@ import sys
 que = deque()
 N = int(input())
 for _ in range(N):
-  order = sys.stdin.readline() #input()
-  order.replace('\n','')
+
+  order = sys.stdin.readline().rstrip() #input()
+  # order.replace('\n','')
+  # order.rstrip('\n')
 
   if 'push' in order:
     order,x = order.split(' ')
     que.append(x)
 
-  elif 'pop' == order:
+  elif 'pop' in order:
     if len(que) == 0:
       print(-1)
       # break
     else:
       print(que.popleft())
 
-  elif 'size' == order:
+  elif 'size' in order:
     print(len(que))
 
-  elif 'empty' == order:
+  elif 'empty' in order:
     if len(que) == 0:
       print(1)
     else:
       print(0)
 
-  elif 'front' == order:
+  elif 'front' in order:
     if len(que) == 0:
       print(-1)
       # break
     else:
       print(que[0])
 
-  elif 'back' == order:
+  elif 'back' in order:
     if len(que) == 0:
       print(-1)
       # break
     else:
       print(que[-1])
-  print(que)
+  # print(que)
