@@ -1,3 +1,21 @@
+## 코테 알고리즘 공부
+
+|문자열||
+|---|---|
+|기본 수학| |
+|재귀| |
+|브루트포스 = 완전탐색| |
+|정렬| |
+|백트래킹| |
+|동적계획법 DP = Dynamic Programming| |
+|그리디 = 탐욕법| |
+|구현| |
+|큐/덱| |
+|분할정복 = 퀵 정렬| |
+|이분탐색| |
+|DFS/BFS| |
+|트리||
+
 ## 입력 출력
 - 프로그래머스이면 신경쓰지 않아도됨
 - input() 이런걸 생각하지 않아도됨 다 자동으로 입력 출력이됨
@@ -30,8 +48,7 @@ li[0], li[1] = li[1],li[0]
 - 리스트.sort(key = len) => 리스트 원소의 길이에 따라 오름차순으로 목록 정렬
 - 리스트[::-1] =>역순으로 출력
 
-<<<<<<< Updated upstream
-=======
+
 ### 문자 제거법
 https://codechacha.com/ko/python-string-strip/
 양쪽 공백 제거 .strip()
@@ -44,7 +61,7 @@ https://codechacha.com/ko/python-string-strip/
 - 리스트.rotate(-1) 역으로 한칸회전
 - 이차원 리스트도 가능함
 
->>>>>>> Stashed changes
+
 ##인덱스 원소 동시 접근
 - for a,b in enumerate(리스트)
 - 키벨류스위치할딕셔너리 = {v:k for k,v in enumerate(딕셔너리 or 리스트)} => 키밸류 바꾸기 => 안되는데?
