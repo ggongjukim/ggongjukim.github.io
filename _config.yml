@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "ggongjukim's devlog"
 title_separator          : "|"
-subtitle                 : "ISFP Devolper" # site tagline that appears below site title in masthead
+subtitle                 : "ISFP Devolper 꿈나무" # site tagline that appears below site title in masthead
 name                     : "ggongjukim"
 description              : "꽁주킴의 데브로그~^ㅁ^"
 url                      : "https://ggongjukim.github.io"
